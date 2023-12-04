@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1B66840A2B1E6576006C5E33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6684092B1E6576006C5E33 /* AppDelegate.swift */; };
 		1B66840C2B1E6576006C5E33 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66840B2B1E6576006C5E33 /* SceneDelegate.swift */; };
-		1B66840E2B1E6576006C5E33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66840D2B1E6576006C5E33 /* ViewController.swift */; };
 		1B6684112B1E6576006C5E33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B66840F2B1E6576006C5E33 /* Main.storyboard */; };
 		1B6684142B1E6576006C5E33 /* SwitchWizard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1B6684122B1E6576006C5E33 /* SwitchWizard.xcdatamodeld */; };
 		1B6684162B1E6577006C5E33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6684152B1E6577006C5E33 /* Assets.xcassets */; };
@@ -17,6 +16,15 @@
 		1B6684242B1E6577006C5E33 /* SwitchWizardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6684232B1E6577006C5E33 /* SwitchWizardTests.swift */; };
 		1B66842E2B1E6577006C5E33 /* SwitchWizardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66842D2B1E6577006C5E33 /* SwitchWizardUITests.swift */; };
 		1B6684302B1E6577006C5E33 /* SwitchWizardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66842F2B1E6577006C5E33 /* SwitchWizardUITestsLaunchTests.swift */; };
+		1B6684402B1E7032006C5E33 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66843F2B1E7032006C5E33 /* HomePage.swift */; };
+		1B6684432B1E7089006C5E33 /* TimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6684422B1E7089006C5E33 /* TimeData.swift */; };
+		1B6684462B1E70A6006C5E33 /* TimeZoneTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6684442B1E70A6006C5E33 /* TimeZoneTableViewCell.swift */; };
+		1B6684472B1E70A6006C5E33 /* TimeZoneTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B6684452B1E70A6006C5E33 /* TimeZoneTableViewCell.xib */; };
+		1B6684492B1E70CB006C5E33 /* Temperature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6684482B1E70CB006C5E33 /* Temperature.swift */; };
+		1B66844B2B1E70F3006C5E33 /* HeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66844A2B1E70F3006C5E33 /* HeightViewController.swift */; };
+		1B66844D2B1E7111006C5E33 /* WeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66844C2B1E7111006C5E33 /* WeightViewController.swift */; };
+		1B66844F2B1E713C006C5E33 /* VolumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B66844E2B1E713C006C5E33 /* VolumeViewController.swift */; };
+		1B6684512B1E718E006C5E33 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6684502B1E718E006C5E33 /* UtilityClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +48,6 @@
 		1B6684062B1E6576006C5E33 /* SwitchWizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwitchWizard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B6684092B1E6576006C5E33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B66840B2B1E6576006C5E33 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1B66840D2B1E6576006C5E33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B6684102B1E6576006C5E33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B6684132B1E6576006C5E33 /* SwitchWizard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwitchWizard.xcdatamodel; sourceTree = "<group>"; };
 		1B6684152B1E6577006C5E33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		1B6684292B1E6577006C5E33 /* SwitchWizardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwitchWizardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B66842D2B1E6577006C5E33 /* SwitchWizardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchWizardUITests.swift; sourceTree = "<group>"; };
 		1B66842F2B1E6577006C5E33 /* SwitchWizardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchWizardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1B66843F2B1E7032006C5E33 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		1B6684422B1E7089006C5E33 /* TimeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeData.swift; sourceTree = "<group>"; };
+		1B6684442B1E70A6006C5E33 /* TimeZoneTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeZoneTableViewCell.swift; sourceTree = "<group>"; };
+		1B6684452B1E70A6006C5E33 /* TimeZoneTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeZoneTableViewCell.xib; sourceTree = "<group>"; };
+		1B6684482B1E70CB006C5E33 /* Temperature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Temperature.swift; sourceTree = "<group>"; };
+		1B66844A2B1E70F3006C5E33 /* HeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightViewController.swift; sourceTree = "<group>"; };
+		1B66844C2B1E7111006C5E33 /* WeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightViewController.swift; sourceTree = "<group>"; };
+		1B66844E2B1E713C006C5E33 /* VolumeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeViewController.swift; sourceTree = "<group>"; };
+		1B6684502B1E718E006C5E33 /* UtilityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +117,11 @@
 		1B6684082B1E6576006C5E33 /* SwitchWizard */ = {
 			isa = PBXGroup;
 			children = (
-				1B6684092B1E6576006C5E33 /* AppDelegate.swift */,
-				1B66840B2B1E6576006C5E33 /* SceneDelegate.swift */,
-				1B66840D2B1E6576006C5E33 /* ViewController.swift */,
+				1B66843C2B1E6FE1006C5E33 /* Main */,
+				1B66843D2B1E6FED006C5E33 /* HomePage */,
+				1B66843E2B1E6FFD006C5E33 /* Converters */,
 				1B66840F2B1E6576006C5E33 /* Main.storyboard */,
 				1B6684152B1E6577006C5E33 /* Assets.xcassets */,
-				1B6684172B1E6577006C5E33 /* LaunchScreen.storyboard */,
 				1B66841A2B1E6577006C5E33 /* Info.plist */,
 				1B6684122B1E6576006C5E33 /* SwitchWizard.xcdatamodeld */,
 			);
@@ -128,6 +143,47 @@
 				1B66842F2B1E6577006C5E33 /* SwitchWizardUITestsLaunchTests.swift */,
 			);
 			path = SwitchWizardUITests;
+			sourceTree = "<group>";
+		};
+		1B66843C2B1E6FE1006C5E33 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1B6684092B1E6576006C5E33 /* AppDelegate.swift */,
+				1B66840B2B1E6576006C5E33 /* SceneDelegate.swift */,
+				1B6684172B1E6577006C5E33 /* LaunchScreen.storyboard */,
+				1B6684502B1E718E006C5E33 /* UtilityClass.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1B66843D2B1E6FED006C5E33 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				1B66843F2B1E7032006C5E33 /* HomePage.swift */,
+				1B6684412B1E7049006C5E33 /* TabelViewCell */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		1B66843E2B1E6FFD006C5E33 /* Converters */ = {
+			isa = PBXGroup;
+			children = (
+				1B6684482B1E70CB006C5E33 /* Temperature.swift */,
+				1B66844A2B1E70F3006C5E33 /* HeightViewController.swift */,
+				1B66844C2B1E7111006C5E33 /* WeightViewController.swift */,
+				1B66844E2B1E713C006C5E33 /* VolumeViewController.swift */,
+			);
+			path = Converters;
+			sourceTree = "<group>";
+		};
+		1B6684412B1E7049006C5E33 /* TabelViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1B6684422B1E7089006C5E33 /* TimeData.swift */,
+				1B6684442B1E70A6006C5E33 /* TimeZoneTableViewCell.swift */,
+				1B6684452B1E70A6006C5E33 /* TimeZoneTableViewCell.xib */,
+			);
+			path = TabelViewCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +290,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B6684472B1E70A6006C5E33 /* TimeZoneTableViewCell.xib in Resources */,
 				1B6684192B1E6577006C5E33 /* LaunchScreen.storyboard in Resources */,
 				1B6684162B1E6577006C5E33 /* Assets.xcassets in Resources */,
 				1B6684112B1E6576006C5E33 /* Main.storyboard in Resources */,
@@ -261,10 +318,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B66844D2B1E7111006C5E33 /* WeightViewController.swift in Sources */,
+				1B6684462B1E70A6006C5E33 /* TimeZoneTableViewCell.swift in Sources */,
 				1B6684142B1E6576006C5E33 /* SwitchWizard.xcdatamodeld in Sources */,
-				1B66840E2B1E6576006C5E33 /* ViewController.swift in Sources */,
 				1B66840A2B1E6576006C5E33 /* AppDelegate.swift in Sources */,
 				1B66840C2B1E6576006C5E33 /* SceneDelegate.swift in Sources */,
+				1B6684432B1E7089006C5E33 /* TimeData.swift in Sources */,
+				1B66844F2B1E713C006C5E33 /* VolumeViewController.swift in Sources */,
+				1B66844B2B1E70F3006C5E33 /* HeightViewController.swift in Sources */,
+				1B6684492B1E70CB006C5E33 /* Temperature.swift in Sources */,
+				1B6684402B1E7032006C5E33 /* HomePage.swift in Sources */,
+				1B6684512B1E718E006C5E33 /* UtilityClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,12 +518,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WhiteCloud.SwitchWizard;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwitchWizard-whitecloudz.SwitchWizard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -482,12 +547,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = WhiteCloud.SwitchWizard;
+				PRODUCT_BUNDLE_IDENTIFIER = "SwitchWizard-whitecloudz.SwitchWizard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
