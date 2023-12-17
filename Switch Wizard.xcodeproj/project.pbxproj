@@ -513,6 +513,7 @@
 				DEVELOPMENT_TEAM = 74V8J2W6H8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwitchWizard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Switch Wizard";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -524,7 +525,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SwitchWizard-whitecloudz.SwitchWizard";
+				PRODUCT_BUNDLE_IDENTIFIER = whitecloudz.SwitchWizard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -542,6 +543,7 @@
 				DEVELOPMENT_TEAM = 74V8J2W6H8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwitchWizard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Switch Wizard";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -553,7 +555,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "SwitchWizard-whitecloudz.SwitchWizard";
+				PRODUCT_BUNDLE_IDENTIFIER = whitecloudz.SwitchWizard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
